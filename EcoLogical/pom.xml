@@ -5,15 +5,15 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.5.7</version>
+		<version>2.5.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>co.edu.unbosque</groupId>
-	<artifactId>EcoLogical</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>com.roca12.misiontic2022.spring.data.mongodb</groupId>
+	<artifactId>TIBURONESBK</artifactId>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
-	<name>EcoLogical</name>
-	<description>Proyecto Hackaton 4R</description>
+	<name>TIBURONESBK</name>
+	<description>Proyecto de entrenamiento en java con spring y mongodb</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -37,6 +37,25 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		
+		
 	</dependencies>
 
 	<build>
@@ -49,3 +68,4 @@
 	</build>
 
 </project>
+
