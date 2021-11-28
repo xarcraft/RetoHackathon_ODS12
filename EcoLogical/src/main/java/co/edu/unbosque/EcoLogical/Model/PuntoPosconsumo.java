@@ -21,8 +21,15 @@ public class PuntoPosconsumo {
 	private String Nombre_programa;
 	private String Contacto;
 	private String email;
+	private String clave;
 	
 	
+	public String getClave() {
+		return clave;
+	}
+	public void setClave(String clave) {
+		this.clave = clave;
+	}
 	public String get_id() {
 		return _id;
 	}

@@ -12,7 +12,23 @@ public class Usuarios {
 	private String email;
 	private String usuario;
 	private String password;
+	private String bio;
+	private Integer puntos;
 	
+	
+	
+	public String getBio() {
+		return bio;
+	}
+	public void setBio(String bio) {
+		this.bio = bio;
+	}
+	public Integer getPuntos() {
+		return puntos;
+	}
+	public void setPuntos(Integer puntos) {
+		this.puntos = puntos;
+	}
 	public String get_id() {
 		return _id;
 	}
