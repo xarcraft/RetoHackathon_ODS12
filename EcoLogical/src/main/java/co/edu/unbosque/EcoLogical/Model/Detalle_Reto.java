@@ -12,6 +12,7 @@ public class Detalle_Reto {
 	private Long num_reto;
 	private Long puntos_reto;
 	private Long total_puntos;
+	private Long subt_puntos;
 	
 	
 	public String get_id() {
@@ -44,6 +45,14 @@ public class Detalle_Reto {
 	public void setTotal_puntos(Long total_puntos) {
 		this.total_puntos = total_puntos;
 	}
+	public Long getSubt_puntos() {
+		return subt_puntos;
+	}
+	public void setSubt_puntos(Long subt_puntos) {
+		this.subt_puntos = subt_puntos;
+	}
+	
+	
 	
 	
 	

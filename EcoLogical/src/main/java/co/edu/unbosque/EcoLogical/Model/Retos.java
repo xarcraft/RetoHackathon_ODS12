@@ -8,12 +8,13 @@ public class Retos {
 	
 	@Id
 	private String _id;
-	private Long codigo_reto;
+	private String codigo_reto;
 	private String nombre_reto;
 	private String clave_reto;
 	private String descripcion_reto;
 	private String cedula_usuario;
 	private Long puntos_reto;
+	private Long subtotalpuntos;
 	private Long total_puntos;
 	private Long num_reto;
 	
@@ -24,10 +25,11 @@ public class Retos {
 	public void set_id(String _id) {
 		this._id = _id;
 	}
-	public Long getCodigo_reto() {
+	
+	public String getCodigo_reto() {
 		return codigo_reto;
 	}
-	public void setCodigo_reto(Long codigo_reto) {
+	public void setCodigo_reto(String codigo_reto) {
 		this.codigo_reto = codigo_reto;
 	}
 	public String getNombre_reto() {
@@ -60,6 +62,12 @@ public class Retos {
 	public void setPuntos_reto(Long puntos_reto) {
 		this.puntos_reto = puntos_reto;
 	}
+	public Long getSubtotalpuntos() {
+		return subtotalpuntos;
+	}
+	public void setSubtotalpuntos(Long subtotalpuntos) {
+		this.subtotalpuntos = subtotalpuntos;
+	}
 	public Long getTotal_puntos() {
 		return total_puntos;
 	}
@@ -72,7 +80,6 @@ public class Retos {
 	public void setNum_reto(Long num_reto) {
 		this.num_reto = num_reto;
 	}
-	
 	
 	
 	
